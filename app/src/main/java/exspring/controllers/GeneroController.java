@@ -19,3 +19,7 @@ public class GeneroController {
         return "list";
     }
 }
+    @RequestMapping("insert")
+    public String insert() {
+        return "insert";
+    }
